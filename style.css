@@ -1,0 +1,207 @@
+body{
+    margin: 0px;
+}
+
+.main{
+    width: 1111px;
+    margin: 0px auto;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.header{
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.headerMenu span{
+    margin-left: 30px;
+}
+
+.centerLeft img{
+    height: 300px;
+    width: 700px;
+    position: relative;
+}
+
+.centerLeft h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 42px;
+}
+
+.centerText{
+    position: relative;;
+    top: 20px;
+    width: 285px;
+}
+
+.centerRight{
+    position: absolute;
+    top: 305px;
+    right: 411px;
+    line-height: 20px;
+}
+
+.center{
+    position: relative;
+    width: 1111px;
+    margin: 0 auto;
+    height: 510px;
+    margin-bottom: 58px;
+}
+
+.centerRight button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    background: orange;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+
+
+.articles{
+    position: absolute;
+    top: 0px;
+    right: -35px;
+    height: 510px;
+    margin-top: 0;
+    margin-right: 40px;
+    background-color: hsl(236, 40%, 22%);
+    color: white;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', 'sans serif';
+    font-family: 'Open Sans', sans-serif;
+}
+
+.articles h1{
+    color: orange;
+    font-weight: 800;
+}
+
+.articles h2{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.articles p{
+    margin-bottom: 40px;
+    color: grey;
+}
+
+.footer{
+    width: 1111px;
+    margin: 0 auto;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    margin-bottom: 35px;
+}
+
+#number1{
+    opacity: 0.4;
+    color: grey;
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    position: absolute;
+    left: 120px;
+    top: -30px;
+}
+
+#number2{
+    opacity: 0.4;
+    color: grey;
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    position: absolute;
+    left: 120px;
+    top: -30px;
+}
+
+#number3{
+    opacity: 0.4;
+    color: grey;
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    position: absolute;
+    left: 120px;
+    top: -30px
+}
+
+#image{
+    width: 100px;
+    height: 131px;
+    float: left;
+}
+
+.firstFooter{
+    width: 33%;
+    position: relative;
+}
+
+.secondFooter{
+    width: 33%;
+    position: relative;
+}
+
+.thirdFooter{
+    width: 33%;
+    position: relative;
+}
+
+.firstFooter p{
+   position: relative;
+   top: 35px;
+   left: 20px;
+}
+
+.secondFooter p{
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+
+.thirdFooter p{
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+
+.firstFooter span{
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.secondFooter span{
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.thirdFooter span{
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+hr{
+    width: 80%;
+    height: 0.5px;
+    float: center;
+}
